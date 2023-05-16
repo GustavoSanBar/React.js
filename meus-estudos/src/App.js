@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './Components/HelloWorld';
+import SayMyName from './Components/SayMyName';
+import Pessoa from './Components/Pessoa';
 
 function App() {
-  const name='Gustavo'
-  const newname = name.toUpperCase()
   
- 
-  function sum(a, b){
-    return a + b
-  }
-
-  const url ='https://i.pinimg.com/564x/d7/75/6b/d7756be2fb35a8cb5f752d100f68a541.jpg'
-
-
   return (
     <div className="App">
-      <h1>Olá, React.</h1>
-      <h2>Modificado por {newname}</h2>
-      <p>Soma: {sum(1, 2)}</p>
-      <img src={url} alt="Teste"/>
+
+      <HelloWorld/>
+      <SayMyName />
+      <Pessoa
+      nome = 'Ichigo'
+      idade = '17'
+      profissao = 'Shinigami'
+      foto = 'https://i.pinimg.com/564x/4a/b6/37/4ab637b00ba63bbaf7f2aa8baa567550.jpg'
+      />
     </div>
   );
 }
