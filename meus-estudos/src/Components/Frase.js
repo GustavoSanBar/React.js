@@ -1,7 +1,9 @@
+import styles from './Frase.module.css'
+
 function Frase(){
     return(
-        <div>
-            <p></p>
+        <div className = {styles.fraseContainer}>
+            <p className={styles.fraseContent}>Aprendendo a colocar CSS</p>
         </div>
     )
 }
