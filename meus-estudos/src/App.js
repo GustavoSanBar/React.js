@@ -18,6 +18,7 @@ function App() {
       idade = '17'
       profissao = 'Shinigami'
       foto = 'https://i.pinimg.com/564x/4a/b6/37/4ab637b00ba63bbaf7f2aa8baa567550.jpg'
+      
       />
     </div>
   );
