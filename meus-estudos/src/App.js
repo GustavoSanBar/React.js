@@ -3,6 +3,8 @@ import HelloWorld from './Components/HelloWorld';
 import SayMyName from './Components/SayMyName';
 import Pessoa from './Components/Pessoa';
 import Frase from './Components/Frase';
+import List from './Components/List';
+
 
 function App() {
   
@@ -11,6 +13,7 @@ function App() {
       <h1>Testando CSS</h1>
       <Frase/>
       <Frase/>
+      <List/>
       <HelloWorld/>
       <SayMyName />
       <Pessoa

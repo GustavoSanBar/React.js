@@ -1,4 +1,6 @@
 body {
   padding: 50px;
-  background-color: lightgray;
+  background-color: black;
+  color: white;
+  padding-bottom: 10px;
 }
